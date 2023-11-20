@@ -1,1 +1,1 @@
-# ethan-portfolio-starter
+# Kushal Vala Portfolio
