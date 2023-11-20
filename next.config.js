@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
-
-module.exports = nextConfig
+};
+// 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
+// KVZ7gOlobZwhQpck
+module.exports = nextConfig;

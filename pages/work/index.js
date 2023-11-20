@@ -9,7 +9,7 @@ import { fadeIn } from "../../variants";
 
 const Work = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center">
+    <div className="h-full bg-primary/90 py-36 flex items-center">
       <Circles />
       <div class="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8 ">
@@ -22,7 +22,7 @@ const Work = () => {
               exit="hidden"
               className="h2 xl:mt-12"
             >
-              My Work<span className="text-accent">.</span>
+              My <span className="text-accent">Work.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}

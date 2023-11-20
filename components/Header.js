@@ -7,15 +7,23 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8 ">
           {/* logo */}
-          <Link href={"/"}>
-            <Image
+          <div className="h5 flex items-center text-2xl">
+            {/* <Image
               src={"/logo.svg"}
               alt="logo"
               width={220}
               height={48}
               priority={true}
-            />
-          </Link>
+            /> */}
+            <Image
+              src={"/developers.png"}
+              className="inline"
+              width={30}
+              height={30}
+              alt=""
+            />{" "}
+            Kushal.dev <span className="blink"> _</span>
+          </div>
           {/* Socials */}
           <Socials />
         </div>
